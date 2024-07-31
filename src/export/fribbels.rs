@@ -29,7 +29,7 @@ use tracing::{debug, info, info_span, instrument, trace, warn};
 
 use crate::export::Exporter;
 
-const BASE_RESOURCE_URL: &str = "https://raw.githubusercontent.com/Dimbreath/StarRailData/master";
+const BASE_RESOURCE_URL: &str = "https://raw.githubusercontent.com/Dimbreath/StarRailData/df89dd1138e751c8b1a62c92fc2bafac421dc18f";
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct Export {
